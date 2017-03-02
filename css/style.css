@@ -1,0 +1,64 @@
+
+@font-face {
+  font-family: 'a_OldTyperNr_Regular';
+  src: url(../fonts/a_OldTyperNr_Regular.ttf);
+} 
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.row {
+  margin -left: 0px;
+  margin-right: 0px;
+}
+#headcont {
+font-family: 'a_OldTyperNr_Regular';
+font-size: 15px;
+color: #2b003d;
+font-weight: 600;
+text-align: center;
+background-color: #fcfcee;
+  }
+
+#text-head-middle,  #zamer, #work, #text-tele {
+margin-top:10px;
+}
+
+@media (max-width: 990px) {
+  #zamer
+  
+   
+  { 
+    display: none;
+  }
+}
+@media (max-width: 950px) {
+  #zamer, 
+  #work
+   
+  { 
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  #zamer, 
+  #work,
+   #text-head-middle,
+    #mail
+  
+   
+  { 
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  #work,
+  #mail,
+  #text-head-middle,
+ #text-tele,
+ #mob2
+  { 
+    display: none;
+  }
+}
