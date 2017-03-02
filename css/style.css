@@ -11,16 +11,45 @@
   margin -left: 0px;
   margin-right: 0px;
 }
+.navbar-inverse{
+  background-color: #32221a;
+  border: 0px;
+}
+.navbar-inverse .navbar-brand {
+  color:  #faf9f0;
+  font-size: 14px;
+}
+.navbar-inverse .navbar-nav > .active > a{
+  background-color: #b8d15e;
+}
+.navbar-inverse .navbar-nav  > li > a {
+  color:   #faf9f0;
+}
+.navbar-toggle {
+  float: left;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color:  #faf9f0;
+  }
 #headcont {
 font-family: 'a_OldTyperNr_Regular';
 font-size: 15px;
 color: #2b003d;
 font-weight: 600;
 text-align: center;
-background-color: #fcfcee;
+background-color: #faf9f0;
   }
+#headcont a{
+  color: #1d334a;
+  font-size: 12px;
+   font-family: arial;
+}
+#text-head-middle  h1{
 
-#text-head-middle,  #zamer, #work, #text-tele {
+font-size: 20px;
+font-weight: 800;
+}
+#text-tele, #mail {
 margin-top:10px;
 }
 
