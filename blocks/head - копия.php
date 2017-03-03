@@ -19,7 +19,11 @@
                         </div>
                       </div>
                      
-      <div class="col-md-6 col-sm-4"> <div id="text-head-middle"><h1>Столешницы <br>из искусственного камня от производителя</h1>
+      <div class="col-md-4 col-sm-4"> <div id="text-head-middle">Столешницы <br>из искусственного камня от производителя
+      <br></div>
+      <div id="mail">
+
+       <p><a href="mailto:info@prime-stone.ru" target="_blank"><img src="images/email.png">info@stoleshka.ru</a></p>
       </div>
       </div>
        <div class="col-md-2 col-sm-2 col-xs-6">
@@ -33,15 +37,26 @@
     8-499-184-37-27</h3>
     </div>
       </div>
-      <div class="col-md-2 col-sm-4"> 
-      <div id="mail">
-
-       <p><a href="mailto:info@prime-stone.ru" target="_blank"><img src="images/email.png"><br>
-       info@stoleshka.ru</a></p>
+      <div class="col-md-2">
+         <div id="work">Время работы<br>
+        ПН-ПТ<br>
+         с 10.00 - до 18.00
+         <a href="#">
+         <br>
+         Посмотреть на карте</a>
+         
       </div>
       </div>
-     
+       <div class="col-md-2 ">
        
+          <div id="zamer">
+         <a href="#"> 
+          <img src="images/zamer.png">
+          <br>
+
+         Вызвать замерщика</a>
+        </div>
+         </div>
          </div>
       </div>
                   </div>
@@ -57,7 +72,12 @@
       <span class="icon-bar"></span>
     </button>
 
-     <!-- Содержимое меню (коллекция навигационных ссылок, формы и др.) -->
+    <!-- Бренд или логотип фирмы (обычно содержит ссылку на главную страницу) -->
+    
+    <a href="#" class="navbar-brand">Бренд</a>
+    <a href="#" class="navbar-brand">Бренд</a>
+    </div>
+  <!-- Содержимое меню (коллекция навигационных ссылок, формы и др.) -->
   <div class="collapse navbar-collapse" id="main-menu" >
       <!-- Список ссылок, расположенных слева -->
     <ul class="nav navbar-nav">
@@ -119,8 +139,7 @@
      
   </div>
 </nav>
-<div class="container-fluid">
-    <img src="/images/slide1.jpg">
-        </div>       
+   
+               
 </body>
 
