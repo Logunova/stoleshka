@@ -3,9 +3,31 @@
   font-family: 'a_OldTyperNr_Regular';
   src: url(../fonts/a_OldTyperNr_Regular.ttf);
 } 
+
 .container-fluid {
   padding-right: 0px;
   padding-left: 0px;
+}
+#slider
+ {
+  background-color: #ffffff;
+  margin-left: 70px;
+  margin-top: 150px;
+}
+
+.carousel-caption h3 {
+   color: black;
+   font-size: 24px;
+ font-family: 'a_OldTyperNr_Regular';
+  background: rgba(255, 255, 255, 0.5);
+
+
+}
+.carousel-inner .item img {
+  margin: auto;
+}
+.navbar {
+  border-radius:0px;
 }
 .row {
   margin -left: 0px;
@@ -14,10 +36,6 @@
 .navbar-inverse{
   background-color: #32221a;
   border: 0px;
-}
-.navbar-inverse .navbar-brand {
-  color:  #faf9f0;
-  font-size: 14px;
 }
 .navbar-inverse .navbar-nav > .active > a{
   background-color: #b8d15e;
@@ -38,6 +56,7 @@ color: #2b003d;
 font-weight: 600;
 text-align: center;
 background-color: #faf9f0;
+heght: 100px;
   }
 #headcont a{
   color: #1d334a;
@@ -53,25 +72,32 @@ font-weight: 800;
 margin-top:10px;
 }
 
-@media (max-width: 990px) {
-  #zamer
+@media (max-width: 1000px) {
+  #text-head-middle  h1
+  
+  { 
+      font-size: 15px;
+    }
+  }
+@media (max-width: 850px) {
+   #text-head-middle
+  
+  { 
+    display: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+   #text-head-middle,
+    
   
    
   { 
     display: none;
   }
 }
-@media (max-width: 950px) {
-  #zamer, 
-  #work
-   
-  { 
-    display: none;
-  }
-}
-@media (max-width: 768px) {
-  #zamer, 
-  #work,
+@media (max-width: 700px) {
    #text-head-middle,
     #mail
   
@@ -81,13 +107,41 @@ margin-top:10px;
   }
 }
 
+@media (max-width: 600px) {
+  .carousel-caption h3
+  
+  { 
+      font-size: 15px;
+    }
+  }
 @media (max-width: 400px) {
-  #work,
   #mail,
   #text-head-middle,
  #text-tele,
- #mob2
+ #mob2,
+ #left-menu,
+ #slider
+
   { 
     display: none;
   }
+}
+#menu {
+  margin-top: 100px;
+}
+#left-menu .block {
+  width: 70px;
+  position: fixed;
+  background-color: #faf9f0;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 130px;
+  font-size: 11px;
+  height:100%;
+
+}
+#left-menu .nav > li > a {
+  padding-left: 0px;
+  padding-right: 0px;
+  color: #2b003d;
 }
